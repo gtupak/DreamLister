@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C0393AB61F769CF400B4040E /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0393AB51F769CF400B4040E /* ItemCell.swift */; };
 		C08597841F769A6400B7AEFA /* MaterialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C08597831F769A6400B7AEFA /* MaterialView.swift */; };
 		C08C71C11F75F58000A8085E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C08C71C01F75F58000A8085E /* AppDelegate.swift */; };
 		C08C71C31F75F58000A8085E /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C08C71C21F75F58000A8085E /* MainVC.swift */; };
@@ -25,6 +26,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C0393AB51F769CF400B4040E /* ItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
 		C08597831F769A6400B7AEFA /* MaterialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaterialView.swift; sourceTree = "<group>"; };
 		C08C71BD1F75F58000A8085E /* Dreamlister.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dreamlister.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C08C71C01F75F58000A8085E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 			isa = PBXGroup;
 			children = (
 				C08597831F769A6400B7AEFA /* MaterialView.swift */,
+				C0393AB51F769CF400B4040E /* ItemCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -197,6 +200,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0393AB61F769CF400B4040E /* ItemCell.swift in Sources */,
 				C08C71F21F7693F700A8085E /* Item+CoreDataProperties.swift in Sources */,
 				C08C71F11F7693F700A8085E /* Item+CoreDataClass.swift in Sources */,
 				C08C71F51F7693F700A8085E /* ItemType+CoreDataClass.swift in Sources */,
