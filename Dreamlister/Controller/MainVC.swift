@@ -44,6 +44,7 @@ class MainVC: UIViewController, UITableViewDelegate, UITableViewDataSource, NSFe
         if let objs = controller.fetchedObjects , objs.count > 0 {
             
             let item = objs[indexPath.row]
+            print(item.toString())
             performSegue(withIdentifier: "ItemDetailsVC", sender: item)
         }
     }

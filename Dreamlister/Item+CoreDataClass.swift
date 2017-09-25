@@ -19,4 +19,8 @@ public class Item: NSManagedObject {
         
         self.created = NSDate()
     }
+    
+    public func toString() -> String {
+        return "Title: \(self.title!)\nPrice: \(self.price)\nType: \(self.toItemType?.type! ?? "")"
+    }
 }
